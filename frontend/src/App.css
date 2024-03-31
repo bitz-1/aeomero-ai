@@ -1,0 +1,58 @@
+.navbar{
+    height: 50px;
+    background-color: rgba(102, 16, 83, 0.36);      
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.listItem{
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+.wrapper {
+    width: 60%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    border: 20px;
+    
+}
+
+.google{
+    height: 20px;
+    width: 50px;
+}
+
+.left,.right{
+    flex: 1;
+}
+}
